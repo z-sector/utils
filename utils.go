@@ -1,7 +1,7 @@
 package utils
 
-func InSlice(a []string, x string) bool {
-	for _, n := range a {
+func InSlice(s []string, x string) bool {
+	for _, n := range s {
 		if x == n {
 			return true
 		}
@@ -9,8 +9,8 @@ func InSlice(a []string, x string) bool {
 	return false
 }
 
-func InSliceInt(a []int, x int) bool {
-	for _, n := range a {
+func InSliceInt(s []int, x int) bool {
+	for _, n := range s {
 		if x == n {
 			return true
 		}
